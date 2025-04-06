@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: fldp
+  name: fldp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fldp
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: fldp
+    spec:
+      containers:
+      - image: rohit44docker/flaskworld:v1
+        name: flaskworld
+        resources: {}
+status: {}
+
+
