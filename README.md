@@ -4,7 +4,7 @@
 
 A simple Flask hello world application.and the this
 
-## Requirements
+## Requirement
 
 - [Python3.8](https://www.python.org/downloads/release/python-380/)
 
